@@ -1,0 +1,30 @@
+python Bigting_hnrs3035_cshw1.py train_ngram --data Moby_Dick.txt --save bigram_model.p --n 2
+
+
+python Bigting_hnrs3035_cshw1.py train_ngram --data Moby_Dick.txt --save trigram_model.p --n 3
+
+
+python Bigting_hnrs3035_cshw1.py predict_ngram --word whale --nwords 100 --load bigram_model.p
+whale ! Not a part of his head and all ! — there , but his mark ; nor in those sharks ; the ship , till you see ; and whose various disguises , at the deck for a nomenclature may with the Parsee ’ s sea , the tumults of this time . Of the small , if you had run , as an end ; a pulpit . And for . From this ship , crested , now , turning towards Whale ; — but is the long breaths of the open air , from out from the
+
+
+python Bigting_hnrs3035_cshw1.py predict_ngram --word whale --nwords 100 --load bigram_model.p --d
+whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale
+
+
+python Bigting_hnrs3035_cshw1.py predict_ngram --word tomato --nwords 100 --load bigram_model.p
+Word not found, can't predict next word
+
+
+python Bigting_hnrs3035_cshw1.py predict_ngram --word "the harpooneer" --nwords 100 --load trigram_model.p --d
+the harpooneer is a thing not to be the first time behold Father Mapple , so that the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the
+
+
+python Bigting_hnrs3035_cshw1.py predict_ngram --word the --nwords 100 --load trigram_model.p --d
+the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the whale , and the
+
+
+python Bigting_hnrs3035_cshw1.py predict_ngram --word the --nwords 100 --load trigram_model.p
+the way . But how did this charitable Aunt Charity bustle about hither and thither at every strand . Oh , sir ! Beware of the tell - ee him whale - ship luckily dropping an anchor ; and rearing upon the open atmosphere . Wherefore , for eber and eber . ” “ What ’ s too tender . Don ’ t — he hunted . But ere this laid eye upon the great passage southwards , double Cape Horn to see it ? You ’ ll see Mr . Starbuck — luck to ye ! blow your trump —
+the tongues of fire . Now , if the tongues of fire , thou vast and venerable head , Stubb benevolently towed away at the oar ; screwing each oar in his young Cape wife and child of his jaw in a life which , for the first place , towards the spot . I now prophesy that I could clear out Hampton Court and the ship drew near , nearer , a little distance from the great ignorance of the petrified forms of the Sperm Whale ’ s affairs to these voices , East and West the Pequod ’ s
+the whale ’ s Hook , I mistrust it ; so that from the billows have still rolled on as it were , in which an old fellow gets now for many years her chief - mate , burned with ardour to encounter the whale ’ s Sagittarius , or rather weight , I cannot now escape speedy extinction . But there is no great well of sperm whales . I partly surmise also , calling to mind that if Captain Ahab ? We thought the whole to him , the Right Whale ’ s Island , the buckets to fill
