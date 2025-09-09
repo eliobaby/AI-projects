@@ -1,6 +1,7 @@
 class BPE:
     # vocab is the class attribute
-    vocabulary = {}
+    def __init__(self):
+        self.vocabulary = {}
     
     # this function is to print the vocabulary
     def show(self):
@@ -29,10 +30,12 @@ class BPE:
         for loop in range(k):
             # logging this because it is too damn long
             print("Running... k = " + str(loop))
+            # logging this for coolness score
+            print("Char length is " + str(len(chars)))
             # Step 2a: Count the number of occurrence for each unique consecutive pair of tokens
             # This can be done by using another dictionary
             count = {}
-            # We want to index it now
+            # Wve want to index it now
             for i in range(len(chars) - 1):
                 string = chars[i] + chars[i + 1]
                 count[string] = count.get(string, 0) + 1
@@ -126,7 +129,6 @@ if args.activity == "tokenize":
     model = pickle.load(filep)
     filep.close()
     print(model.tokenize(args.text))
-    model.show()
         
         
         
