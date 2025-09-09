@@ -24,7 +24,11 @@ class BPE:
         self.n = num 
         # So step 1 is complete
         # put all of step 2 in a for loop
+        # Check for value of k
+        print(k)
         for loop in range(k):
+            # logging this because it is too damn long
+            print("Running... k = " + str(loop))
             # Step 2a: Count the number of occurrence for each unique consecutive pair of tokens
             # This can be done by using another dictionary
             count = {}
@@ -59,8 +63,12 @@ class BPE:
     
     def tokenize(self, text):
         chars = list(text)
+        # Check length of the vocabulary
+        print(len(self.vocabulary))
         # This loops from the first instance of a merge to the end of the vocabulary
         for i in range(self.n, len(self.vocabulary)):
+            # logging this because it is too damn long
+            print("Running... k = " + str(i))
             # We will shrink this chars just like we did in train
             shift = 0
             for j in range(len(chars) - 1):
@@ -106,7 +114,7 @@ if args.activity == "train_bpe":
     data = file.read()
     file.close()
     model = BPE()
-    model.train(data)
+    model.train(data, args.k)
     filep = open(args.save, "wb")
     pickle.dump(model, filep)
     filep.close()

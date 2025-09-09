@@ -1,0 +1,11 @@
+python Bigting_csc4700_cshw2.py train_bpe --data Moby_Dick.txt --save bpe1.p
+
+python Bigting_csc4700_cshw2.py tokenize --text "The bright green Norwegian avocado was eaten by the whale!" --load bpe1.p
+
+python Bigting_csc4700_cshw2.py train_bpe --data Moby_Dick.txt --save bpe2.p --k 3000
+
+python Bigting_csc4700_cshw2.py tokenize --text "The bright green Norwegian avocado was eaten by the whale!" --load bpe2.p
+
+python Bigting_csc4700_cshw2.py train_bpe --data Moby_Dick.txt --save bpe3.p --k 10
+
+python Bigting_csc4700_cshw2.py tokenize --text "The bright green Norwegian avocado was eaten by the whale!" --load bpe3.p
